@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centerTitle {
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+}
+.centerParagraph {
+    align-content: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+  }
+.image {
+    height: 650px;
+    width: 100%;
+}
+.aboutUs {
+    text-align: center;
+}
+.downArrow {
+    align-content: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
