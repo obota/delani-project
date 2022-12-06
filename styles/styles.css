@@ -54,3 +54,25 @@
   justify-content:space-between;
   
 }
+
+#div1 {
+  text-align: center;
+  margin: auto;
+  border: 3px black dotted;
+  border-color: red;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  background-color: aquamarine;
+}
+
+#div2 {
+  text-align: center;
+  margin: auto;
+  border: 3px yellow dotted;
+  border-color: blue;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  background-color: blueviolet;
+}

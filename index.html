@@ -1,8 +1,9 @@
 <html>
   <head>
     <title>Delani Studio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="jquery-3.6.1.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="javascript/script.js"></script>
+    <script src="jquery/jquery-3.6.1.js"></script>
   </head>
   <body>
     <div class="container">
@@ -15,7 +16,7 @@
         <a href="#" class="centerMouse"><img src="assets/images/mouse_click.png"></a>
       </div>
     </div>
-    <div class="aboutUs">
+    <div class="aboutUs" id="aboutText">
       <h1>About Us</h1>
       <p>
         When you work with us, you are part of a team of committed
@@ -43,19 +44,6 @@
         </button>
       </div>
     </div>
-    <script>
-      // window.onload=function(){
-      //   document.getElementById('button1').addEventListener('click', clickHandler, false);
-      // };
-      // function clickHandler(){
-      //   alert('Jquery Tutorial')
-      // }
-      jQuery(document).ready(function () {
-        jQuery("#paragraph1").click(function () {
-          alert("JQuery Works");
-        });
-      });
-    </script>
     <div class="aboutUs">
       <h1>What We Do</h1>
     </div>
@@ -68,16 +56,19 @@
         /></a>
         <p class="serviceText">Design</p>
       </div>
-      <div class="serviceIcon">
-        <a href="#"
+      <div class="serviceIcon" id="card-grid">
+        <a 
           ><img
             src="assets/images/dev_icon.png"
             style="width: 100px; height: 100px"
+            id="flip"
         /></a>
         <p class="serviceText">development</p>
+        <div class="backContent" id ="unflip"><p>Back Text</p></div>
+        
       </div>
-      <div class="serviceIcon">
-        <a href="#"
+      <div class="serviceIcon" id="check">
+        <a class="iconImage"
           ><img
             src="assets/images/product_icon.png"
             style="width: 100px; height: 100px"
@@ -94,5 +85,12 @@
     <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
     <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
     </div>
+    <div class="portfolio">
+      <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
+      <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
+      <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
+      <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
+      </div>
+    <button onclick="changeText()">Check Check</button>
   </body>
 </html>
