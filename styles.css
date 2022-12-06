@@ -12,24 +12,45 @@
   color: azure;
 }
 .centerParagraph {
-    align-content: center;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: azure;
-  }
+  align-content: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: azure;
+}
+.centerMouse {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .image {
-    height: 650px;
-    width: 100%;
+  height: 650px;
+  width: 100%;
 }
 .aboutUs {
-    text-align: center;
+  text-align: center;
 }
 .downArrow {
-    align-content: center;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  align-content: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.serviceSection {
+  display: flex;
+  justify-content: center;
+}
+.serviceIcon {
+  padding: 100px;
+}
+.serviceText {
+  text-align: center;
+}
+.portfolio {
+  display:flex;
+  justify-content:space-between;
+  
 }

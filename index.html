@@ -2,6 +2,7 @@
   <head>
     <title>Delani Studio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="jquery-3.6.1.js"></script>
   </head>
   <body>
     <div class="container">
@@ -11,7 +12,7 @@
         <p class="centerParagraph">
           AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN FUN ENVIRONMENT
         </p>
-        <button class="downArrow"><i class="far fa-clock"></i></button>
+        <a href="#" class="centerMouse"><img src="assets/images/mouse_click.png"></a>
       </div>
     </div>
     <div class="aboutUs">
@@ -25,6 +26,73 @@
         needs and the product requirements. Then we help translate them into
         effective and elegant solutions.
       </p>
+    </div>
+    <div class="container">
+      <img class="image" src="assets/images/bg2.jpeg" alt="background" />
+      <div>
+        <h1 class="centerTitle">Our Services</h1>
+        <p class="centerParagraph" id="paragraph1">
+          Before we sign a contract or write a line of code, our team will spend
+          the necessary time needed to understand your product vision. The
+          outcome of this scoping session is a proposal or high level statement
+          of work based on your requirements, we can provide a complete offering
+          or just the pieces you need.
+        </p>
+        <button class="downArrow" onclick="">
+          <i class="far fa-clock"></i>
+        </button>
+      </div>
+    </div>
+    <script>
+      // window.onload=function(){
+      //   document.getElementById('button1').addEventListener('click', clickHandler, false);
+      // };
+      // function clickHandler(){
+      //   alert('Jquery Tutorial')
+      // }
+      jQuery(document).ready(function () {
+        jQuery("#paragraph1").click(function () {
+          alert("JQuery Works");
+        });
+      });
+    </script>
+    <div class="aboutUs">
+      <h1>What We Do</h1>
+    </div>
+    <div class="serviceSection">
+      <div class="serviceIcon">
+        <a href="#"
+          ><img
+            src="assets/images/design_icon.png"
+            style="width: 100px; height: 100px"
+        /></a>
+        <p class="serviceText">Design</p>
+      </div>
+      <div class="serviceIcon">
+        <a href="#"
+          ><img
+            src="assets/images/dev_icon.png"
+            style="width: 100px; height: 100px"
+        /></a>
+        <p class="serviceText">development</p>
+      </div>
+      <div class="serviceIcon">
+        <a href="#"
+          ><img
+            src="assets/images/product_icon.png"
+            style="width: 100px; height: 100px"
+        /></a>
+        <p class="serviceText">Product Management</p>
+      </div>
+    </div>
+    <div class="aboutUs">
+      <h1>Portfolio</h1>
+    </div>
+    <div class="portfolio">
+    <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
+    <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
+    <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
+    <div><img src="assets/images/bckground.jpeg" style="width: 200px; height: 200px"></div>
     </div>
   </body>
 </html>
