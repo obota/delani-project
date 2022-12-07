@@ -39,9 +39,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.serviceSection {
+#serviceSection {
   display: flex;
-  justify-content: center;
 }
 .serviceIcon {
   padding: 100px;
@@ -50,9 +49,17 @@
   text-align: center;
 }
 .portfolio {
-  display:flex;
-  justify-content:space-between;
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+  /* gap: 10px; */
+  padding: 10px;
+  align-content: center;
   
+}
+.portfolioItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #div1 {
@@ -75,4 +82,11 @@
   width: 300px;
   position: relative;
   background-color: blueviolet;
+}
+#block {
+  max-width: 500px;
+}
+.cardItem {
+  display: flex;
+  margin-left: "100px";
 }
